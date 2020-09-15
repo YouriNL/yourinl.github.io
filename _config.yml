@@ -70,6 +70,17 @@ minima:
 plugins:
   - jekyll-feed
 
+# Configuration Examples https://github.com/jekyll/jekyll-feed
+feed:
+  posts_limit: 20
+#  categories:
+#    - 1
+#    - 2
+#  tags:
+#    only:
+#      - 1
+#      - 2
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
