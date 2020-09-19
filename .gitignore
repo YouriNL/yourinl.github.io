@@ -3,5 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+# OS Files
 .DS_Store
 .vscode
+# Twitter Plugin Cache
+.tweet-cache
