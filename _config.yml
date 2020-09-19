@@ -147,7 +147,7 @@ pagination:
 # Jekyll Maps ( https://github.com/ayastreb/jekyll-maps )
 maps:
   google:
-    api_key: <YOUR_KEY>
+    api_key: ${{ secrets.GOOGLE_MAPS_API_KEY }}
 
 # Import remote JSON data into the data for a Jekyll site
 jekyll_get_json:
