@@ -153,3 +153,26 @@ maps:
 jekyll_get_json:
   - data: weer_amsterdam
     json: 'http://weerlive.nl/api/json-data-10min.php?key=demo&locatie=Amsterdam'
+
+# Collections
+collections:
+  climbing:
+    output: true
+    permalink: /:collection/:path/
+    title: Climbing
+  minecraft:
+    output: true
+    permalink: /:collection/:path/
+    title: Minecraft Server
+  home-automation:
+    output: true
+    permalink: /:collection/:path/
+    title: Home Automation
+  container-home:
+    output: true
+    permalink: /:collection/:path/
+    title: Container Home
+  camper-van:
+    output: true
+    permalink: /:collection/:path/
+    title: VW Camper-Van
