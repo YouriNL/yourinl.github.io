@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Klimcentrum Yellow-Stone",
+        "latitude": "51.5503353",
+        "longitude": "4.4756214",
+        "address": "Buijenstraat 16 Roosendaal",
+        "content": "In ons klimcentrum kun je zowel toprope/lead klimmen (met touwen) als boulderen in onze nieuwe boulderruimte.",
+        "categories": ["lead", "boulder"],
+        "url": "http://www.yellow-stone.nl"
+    },
+    {
+        "title": "Neoliet Tilburg",
+        "latitude": "51.5391124",
+        "longitude": "5.0659079",
+        "address": "Marathonpromenade 1 Tilburg",
+        "content": "180 routes, 11-19m hoog - 1500m² klimwand, 60 boulders - 4-5m hoog - 150m² boulderwand.",
+        "categories": ["lead", "boulder"],
+        "url": "https://www.neoliet.nl/tilburg/"
+    },
+    {
+        "title": "Mountain Network Dordrecht",
+        "latitude": "51.7989107",
+        "longitude": "4.6765603",
+        "address": "Maria Montessorilaan 3a Dordrecht",
+        "content": "De klimhallen hebben een hoogte van 13 meter en 17 meter en vallen vanaf de straatzijde direct op door de hoge ramen.",
+        "categories": ["lead", "boulder"],
+        "url": "https://mountain-network.nl/klimcentra/locaties/klimhal-dordrecht/"
+    },
+    {
+        "title": "Boulderhal Bruut",
+        "latitude": "51.5982318",
+        "longitude": "4.7534426",
+        "address": "Spinveld 66A1 Breda",
+        "content": "Een boulderhal waarin zowel de gevorderde als beginnende klimmers hun weg naar de top van een route weten te vinden.",
+        "categories": ["boulder"],
+        "url": "https://www.boulderhalbruut.nl/"
+    },
+    {
+        "title": "Monk Rotterdam",
+        "latitude": "51.9417746",
+        "longitude": "4.4719914",
+        "address": "Ceintuurbaan 183 Rotterdam",
+        "content": "Hier vind je 170 boulders, verdeeld over zeven circuits op kleur. We hebben een trainingsruimte met campusbord, Moonboard, rekstok, hangborden, ringen, suspension trainers en losse trainingsattributen voor oefeningen op de grond.",
+        "categories": ["boulder"],
+        "url": "https://monk.nl/rotterdam/"
+    },
+    {
+        "title": "Boulderhal Block013",
+        "latitude": "51.5772309",
+        "longitude": "5.0894719",
+        "address": "Lovensekanaaldijk 47 Tilburg",
+        "content": "Boulderen is puzzelen met je lichaam. Je wordt er sterk, gespierd, slim, lenig en mooi van. Op een wand van slechts 4 meter hoog probeer je via korte routes omhoog te klimmen.",
+        "categories": ["boulder"],
+        "url": "https://www.block013.nl/"
+    }
+]
