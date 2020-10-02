@@ -2,7 +2,6 @@
 layout: page
 title: Minecraft Server
 ---
-All Minecraft Posts:
 {% for minecraft in site.minecraft %}
 <div class="minecraft">
     <h2>
