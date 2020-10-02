@@ -20,10 +20,13 @@ layout: default
       {%- if page.author -%}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
+            <span class="p-author h-card" itemprop="name">{{ author }}</span>
+          </span>
+          {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+          • {% include read_time.html %}{{ reading_time }}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
