@@ -27,6 +27,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+author:
+  name: Youri
+  email: spam@thedreamer.nl
+
 paginate: 10
 paginate_path: "/blog/page:num/"
 
