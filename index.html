@@ -1,9 +1,112 @@
----
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
-layout: home
----
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery, Popper.js, Bootstrap JS, Fontawesome -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">[youri@earth ~] #</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Images Slider -->
+
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+            <li data-target="#carouselId" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="assets/images/background/pexels-kaique-rocha-379964.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">::1/128</h1>
+                    <h3>Tiny Container Home</h3>
+                    <button type="button" class="btn btn-primary btn-lg">SOON</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/background/pexels-alfonso-escalante-2533092.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">VW Camper</h1>
+                    <h3>Camper conversion</h3>
+                    <button type="button" class="btn btn-primary btn-lg">SOON</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/background/wp6910059-analytics-wallpapers.png" alt="Second slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">HA</h1>
+                    <h3>Home Automation</h3>
+                    <button type="button" class="btn btn-primary btn-lg">SOON</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/background/kokul3czmc151.png" alt="Third slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Minecraft</h1>
+                    <h3>Server Information</h3>
+                    <button type="button" class="btn btn-primary btn-lg">SOON</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <!--- Connect -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+            <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="https://social.thedreamer.nl/facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://social.thedreamer.nl/instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://social.thedreamer.nl/pinterest"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.linkedin.com/in/yourikoolen"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h5>&copy; TheDreamer.nl</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+</html>
