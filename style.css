@@ -78,9 +78,17 @@ html, body {
 .fa-linkedin {
   color: #2867B2;
 }
+.fa-whatsapp {
+  color: #4AC959;
+}
+.fa-discord {
+  color: #7289DA;
+}
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-pinterest:hover,
+.fa-whatsapp:hover,
+.fa-discord:hover,
 .fa-linkedin:hover {
   color: #FCAF45;
 }
