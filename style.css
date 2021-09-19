@@ -92,8 +92,10 @@ html, body {
 .fa-pinterest:hover,
 .fa-whatsapp:hover,
 .fa-discord:hover,
-.fa-linkedin:hover { color: #FCAF45; },
-.fa-rss:hover
+.fa-linkedin:hover,
+.fa-rss:hover { 
+  color: #FCAF45;
+}
 footer {
   background-color: #f8f9fa;
   color: #000;
