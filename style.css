@@ -84,14 +84,16 @@ html, body {
 .fa-discord {
   color: #7289DA;
 }
+.fa-rss {
+  color: #EE802F;
+}
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-pinterest:hover,
 .fa-whatsapp:hover,
 .fa-discord:hover,
-.fa-linkedin:hover {
-  color: #FCAF45;
-}
+.fa-linkedin:hover { color: #FCAF45; },
+.fa-rss:hover
 footer {
   background-color: #f8f9fa;
   color: #000;
