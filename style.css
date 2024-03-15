@@ -84,6 +84,9 @@ html, body {
 .fa-discord {
   color: #7289DA;
 }
+.fa-comment {
+  color: #000000;
+}
 .fa-rss {
   color: #EE802F;
 }
@@ -93,6 +96,7 @@ html, body {
 .fa-whatsapp:hover,
 .fa-discord:hover,
 .fa-linkedin:hover,
+.fa-comment:hover,
 .fa-rss:hover { 
   color: #FCAF45;
 }
