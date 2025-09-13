@@ -86,50 +86,62 @@ De onderstaande commando's zijn voorbeelden gebaseerd op de Cisco IOS Command Li
 ### VLAN's Aanmaken
 VLAN-details worden doorgaans opgeslagen in een speciaal configuratiebestand op de switch [32-34, 49].
 
+{% highlight bash %}
 Switch# configure terminal 
 Switch(config)# vlan <vlan-id> 
 Switch(config-vlan)# name <vlan-naam> 
 Switch(config-vlan)# end
+{% endhighlight %}
 
 Bijvoorbeeld, voor VLAN 20 genaamd 'student' [32, 49, 53]:
 
+{% highlight bash %}
 S1# configure terminal 
 S1(config)# vlan 20 
 S1(config-vlan)# name student 
 S1(config-vlan)# end
+{% endhighlight %}
 
 ### Poorten Toewijzen aan VLAN's
 Zodra een VLAN is aangemaakt, wijs je de fysieke interfaces (poorten) toe aan het juiste VLAN [32, 33, 47, 49]. Een poort die aan een eindapparaat (zoals een computer) is gekoppeld, wordt een 'access-poort' genoemd en kan slechts aan één Data-VLAN worden toegewezen [32, 33, 49, 54]. Echter, het kan ook aan één Voice-VLAN worden toegewezen wanneer een IP-telefoon met ingebouwde switch op dezelfde poort wordt aangesloten [32, 33, 49, 54].
 
+{% highlight bash %}
 Switch# configure terminal 
 Switch(config)# interface <interface-id> 
 Switch(config-if)# switchport mode access  # Zet de poort in access-modus 
 Switch(config-if)# switchport access vlan <vlan-id> # Wijs de poort toe aan een Data-VLAN 
 Switch(config-if)# end
+{% endhighlight %}
 
 ### Trunk-links Configureren
 Trunk-poorten zijn essentieel om VLAN's tussen switches te transporteren [48, 50-52].
 
+{% highlight bash %}
 Switch# configure terminal 
 Switch(config)# interface <interface-id> 
 Switch(config-if)# switchport mode trunk # Zet de poort in permanente trunking modus 
 Switch(config-if)# switchport trunk native vlan <vlan-id> # Stelt het Native VLAN in 
 Switch(config-if)# switchport trunk allowed vlan <vlan-lijst> # Specificeert toegestane VLAN's 
 Switch(config-if)# end
+{% endhighlight %}
 
 Bijvoorbeeld, voor een trunk-poort op interface fa0/1 met Native VLAN 99 en toegestane VLAN's 10, 20, 30, 99 [50, 51, 55]:
 
+{% highlight bash %}
 S1(config)# interface fa0/1 
 S1(config-if)# switchport mode trunk 
 S1(config-if)# switchport trunk native vlan 99 
 S1(config-if)# switchport trunk allowed vlan 10,20,30,99 
 S1(config-if)# end
+{% endhighlight %}
 
 ### VLAN-informatie Verifiëren
 Gebruik verificatiecommando's om VLAN-informatie en de status van poorten te controleren [32, 33, 49-52, 56-58]:
 
+{% highlight bash %}
 show vlan [brief | id <vlan-id> | name <vlan-naam> | summary] 
 show interfaces <interface-id> switchport show interfaces trunk
+{% endhighlight %}
 
 `show vlan brief` toont een overzicht van VLAN-namen, -statussen en bijbehorende poorten [32, 33, 49, 56, 59]. 
 `show interfaces <interface-id> switchport` kan details tonen over de toegewezen data- en voice-VLAN's en trunk-status [22, 32, 33, 50, 52, 57-60]. 
